@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Gênio da Tattoo</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="shortcut icon" type="imagex/png" href="/img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <img class="h1" src="/img/h1.png" />
+	<div class="content">
+            <!-- Card de Regras -->
+            <div class="left-column">
+                <div class="rules-card">
+                    <h2>Como Participar</h2>
+                    <ol>
+                        <li>Preencha seu nome no campo indicado.</li><br>
+                        <li>Clique no botão "Qual o meu prêmio?" para ver seu resultado.</li><br>
+                        <li>Compartilhe o resultado com o tatuador pelo WhatsApp ou Instagram.</li><br>
+                        <li>Resgate seu prêmio apresentando a mensagem compartilhada ao tatuador.</li><br>
+                        <li>Para validar o prêmio é necessário estar seguindo <b><a href="https://www.instagram.com/kevii_ink/" id="kevii_ink">@kevii_ink</a></b>.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="middle-column">
+                <!-- Formulário e Botões -->
+                <div class="input-container">
+    			<input type="text" id="nomeInput" placeholder="Digite seu @ do instagram">
+    			<i class="fas fa-question-circle" id="helpIcon"></i>
+    			<div class="tooltip" id="helpTooltip">Aqui você deve inserir o seu nome de usuário do Instagram.</div>
+		</div>
+		
+		<div class="button-container" id="buttonPremio">
+		        <img src="/img/lampadaHover.png" class="button-premio" id="buttonPremioImg">
+                </div>
+                <div id="resultado" class="hidden"></div>
+		    <div class="share-container hidden">
+		    <h2 class="text-bordered">Compartilhe com o tatuador o resultado!</h2>
+                    <div id="botoesCompartilhar">
+                        <button id="buttonShareWhatsApp" class="glow"><i class="fab fa-whatsapp"></i></button>
+                        <button id="buttonShareInstagram" class="glow"><i class="fab fa-instagram"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="right-column">
+                <div id="historico">
+                    <div id="historicoContent"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
+
