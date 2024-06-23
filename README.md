@@ -1,4 +1,6 @@
 # Projeto: Gerador de Prêmios para Tatuador
+Link em produção: [Genio da Tattoo](https://geniodatattoo.com.br)
+
 ## Descrição
 Este projeto tem como objetivo criar um site para gerar prêmios para um tatuador e gravar essas informações em um banco de dados para controle e gestão do próprio tatuador. O site permite ao tatuador criar, gerenciar e visualizar os prêmios oferecidos aos seus clientes.
 
@@ -67,7 +69,7 @@ npm install
 3. Configurar Variáveis de Ambiente:
 
     * Crie um arquivo .env na pasta config e configure as variáveis conforme o exemplo abaixo:
-    
+
 ```` makefile
 DB_HOST=localhost
 DB_USER=root
